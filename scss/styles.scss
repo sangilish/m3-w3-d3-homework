@@ -1,14 +1,7 @@
-/* Variables */
-
-
-/* Nest Main */
-main {
-    width: 1350px;
-    min-height:535px;
-}
-
-// Mixin or Extend for button
 // styles.scss
+
+@import 'colors';
+@import 'nav';
 
 // Mixin for buttons
 @mixin button-style {
@@ -23,24 +16,24 @@ main {
     &:hover {
       background-color: $bright-green;
     }
-  }
-  
-  // Apply mixin to your button
-  .submit-button {
-    @include button-style;
-  }
-  
+}
 
-  // styles.scss 
+// Apply mixin to your button
+.submit-button {
+  @include button-style;
+}
 
+// Main Section Styling
 main {
   width: 1350px;
   min-height: 535px;
   display: flex;
   justify-content: space-between;
+  background-color: $light-gray;  // Apply background color to main section
 
   #intro-text {
     width: 60%;
+
     span {
       font-family: 'Sacramento', cursive;
       font-size: 2rem;
@@ -55,7 +48,7 @@ main {
       font-size: 1.5rem;
       color: $dark-gray;
     }
-    
+
     .submit-button {
       @include button-style;
     }
@@ -69,8 +62,13 @@ main {
   }
 }
 
-// styles.scss
+// Nav and footer styling
+nav {
+  background-color: $gold;  // Apply gold color to the navigation bar
+}
 
-@import 'colors';
-@import 'nav';
-
+footer {
+  background-color: $gold;  // Apply gold color to the footer
+  text-align: center;
+  padding: 10px;
+}

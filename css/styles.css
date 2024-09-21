@@ -1,0 +1,87 @@
+/* Nest Nav */
+nav {
+  background-color: rgb(218, 170, 14);
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li {
+  display: inline;
+  padding: 0 1em;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, Sans-Serif;
+}
+nav ul li a:hover {
+  color: rgb(212, 213, 216);
+}
+
+.submit-button {
+  background-color: rgb(127, 236, 55);
+  color: rgb(49, 49, 48);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.submit-button:hover {
+  background-color: rgb(170, 240, 113);
+}
+
+main {
+  width: 1350px;
+  min-height: 535px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(212, 213, 216);
+}
+main #intro-text {
+  width: 60%;
+}
+main #intro-text span {
+  font-family: "Sacramento", cursive;
+  font-size: 2rem;
+}
+main #intro-text h3 {
+  font-size: 2.5rem;
+  color: rgb(49, 49, 48);
+}
+main #intro-text p {
+  font-size: 1.5rem;
+  color: rgb(49, 49, 48);
+}
+main #intro-text .submit-button {
+  background-color: rgb(127, 236, 55);
+  color: rgb(49, 49, 48);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+main #intro-text .submit-button:hover {
+  background-color: rgb(170, 240, 113);
+}
+main #intro-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+nav {
+  background-color: rgb(218, 170, 14);
+}
+
+footer {
+  background-color: rgb(218, 170, 14);
+  text-align: center;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */
