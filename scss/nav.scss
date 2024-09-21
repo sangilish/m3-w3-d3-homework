@@ -1,0 +1,30 @@
+/* Nest Nav */
+// nav.scss
+
+nav {
+    background-color: $gold;
+  
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+      
+      li {
+        display: inline;
+        padding: 0 1em;
+  
+        a {
+          text-decoration: none;
+          color: $white;
+          font-family: Arial, Helvetica, Sans-Serif;
+          
+          &:hover {
+            color: $light-gray;
+          }
+        }
+      }
+    }
+  }
+  
